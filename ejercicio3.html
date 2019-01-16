@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejercicio de galería.">
+    <meta name="author" content="David H">
+    <title>Ejercicio 3.</title>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <script type="text/javascript" src="js/bpgdec8a.js"></script>
+    <style media="screen">
+      body {
+        background-color: grey;
+      }
+      .container {
+        background-color: #fff;
+        margin:0 auto;
+        width: 304px;
+        padding: 5px;
+      }
+      h1 {
+        font-family: 'Coiny', cursive;
+        color: rgb(0, 135, 204);
+        font-size: 1.2em;
+        text-align: center;
+      }
+      canvas {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Galería de imágenes.</h1>
+    <a href="images/coins1.jpg" data-lightbox="galeria"><img src="images/coins1-tb.jpg" alt="Monedas"></a>
+    <a href="images/james_brown2.jpg" data-lightbox="galeria"><img src="images/james_brown2-tb.jpg" data-title="My caption" alt="James Brown"></a>
+    <a href="images/james_brown3.jpg" data-lightbox="galeria"><img src="images/james_brown3-tb.jpg" alt="James Brown"></a>
+    <a href="images/james_brown4.jpg" data-lightbox="galeria"><img src="images/james_brown4-tb.jpg" alt="James Brown"></a>
+  </div>
+  <div class="container">
+    <img src="images/james_brown4.bpg" alt="James Brown.">
+  </div>
+  <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
