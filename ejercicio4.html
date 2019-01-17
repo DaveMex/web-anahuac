@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejercicio de diseño web">
+    <meta name="author" content="David H.">
+    <title>Ejercicio 4, vivus.</title>
+    <style media="screen">
+    svg {
+      width: 800px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <svg id="my-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1191.38 844.16" onclick="vander.reset().play();"><defs><style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style></defs>
+        <title>van-der-graff</title>
+        <line class="cls-1" x1="0.41" y1="843.75" x2="1190.88" y2="1.81"/>
+        <line class="cls-1" x1="595.69" y1="1.87" x2="1190.97" y2="843.75"/>
+        <line class="cls-1" x1="794.12" y1="282.51" x2="794.12" y2="1.82"/>
+        <line class="cls-1" x1="0.62" y1="1.91" x2="1190.97" y2="843.75"/>
+        <line class="cls-1" x1="595.69" y1="1.87" x2="0.41" y2="843.75"/><line class="cls-1" x1="397.29" y1="282.5" x2="794.3" y2="0.41"/><rect class="cls-1" x="661.42" y="94.82" width="397.94" height="562.82"/>
+        <rect class="cls-1" x="916.53" y="1.9" width="23.24" height="93.26"/>
+        <rect class="cls-1" x="708.74" y="658.5" width="28.67" height="184.69"/>
+        <rect class="cls-1" x="595.41" y="553.19" width="66" height="11.33"/>
+        <rect class="cls-1" x="1059.41" y="412.53" width="130.67" height="13.33"/>
+      </svg>
+        <!-- <p>Type
+              <span class="button-group">
+                  <button onclick="timingTest(this,'type','delayed');" class="active"><span>delayed</span></button>
+                  <button onclick="timingTest(this,'type','sync');"><span>sync</span></button>
+                  <button onclick="timingTest(this,'type','oneByOne');"><span>oneByOne</span></button>
+              </span>
+        </p> -->
+    </div>
+    <script src="js/vivus.js"></script>
+
+    <script>
+        //const myVivus = new Vivus('my-svg');
+        vander = new Vivus('my-svg', {type: 'sync', duration: 150});
+        //vander = new Vivus('my-svg', {type: 'scenario-sync', duration: 20, forceRender: false});
+        myVivus.play(1, function() {
+
+        })
+
+        myVivus.play(function() {
+
+        });
+    </script>
+  </body>
+</html>
