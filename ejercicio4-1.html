@@ -9,12 +9,13 @@
     svg {
       width: 800px;
     }
+    #my-div {width: 400px;}
     </style>
   </head>
   <body>
     <div class="container">
 
-      <svg id="my-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1191.38 844.16" onclick="vander.reset().play();"><defs><style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style></defs>
+      <!-- <svg id="diagrama" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1191.38 844.16" onclick="vander.reset().play();"><defs><style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style></defs>
         <title>van-der-graff</title>
         <line class="cls-1" x1="0.41" y1="843.75" x2="1190.88" y2="1.81"/>
         <line class="cls-1" x1="595.69" y1="1.87" x2="1190.97" y2="843.75"/>
@@ -25,7 +26,10 @@
         <rect class="cls-1" x="708.74" y="658.5" width="28.67" height="184.69"/>
         <rect class="cls-1" x="595.41" y="553.19" width="66" height="11.33"/>
         <rect class="cls-1" x="1059.41" y="412.53" width="130.67" height="13.33"/>
-      </svg>
+      </svg> -->
+      <!-- <object id="my-svg" type="image/svg+xml" data="images/van-der-graff.svg" width="600px"></object> -->
+      <div id="my-div"></div>
+
         <!-- <p>Type
               <span class="button-group">
                   <button onclick="timingTest(this,'type','delayed');" class="active"><span>delayed</span></button>
@@ -37,16 +41,7 @@
     <script src="js/vivus.js"></script>
 
     <script>
-        //const myVivus = new Vivus('my-svg');
-        vander = new Vivus('my-svg', {type: 'sync', duration: 150});
-        //vander = new Vivus('my-svg', {type: 'scenario-sync', duration: 20, forceRender: false});
-        myVivus.play(1, function() {
-
-        })
-
-        myVivus.play(function() {
-
-        });
+      new Vivus('my-div', {duration: 200, type: 'scenario-sync', file: 'images/van-der-graff.svg'},);
     </script>
   </body>
 </html>

@@ -1,1 +1,17 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1191.38 844.16"><defs><style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style></defs><title>van-der-graff</title><line class="cls-1" x1="0.41" y1="843.75" x2="1190.88" y2="1.81"/><line class="cls-1" x1="595.69" y1="1.87" x2="1190.97" y2="843.75"/><line class="cls-1" x1="794.12" y1="282.51" x2="794.12" y2="1.82"/><line class="cls-1" x1="0.62" y1="1.91" x2="1190.97" y2="843.75"/><line class="cls-1" x1="595.69" y1="1.87" x2="0.41" y2="843.75"/><line class="cls-1" x1="397.29" y1="282.5" x2="794.3" y2="0.41"/><rect class="cls-1" x="661.42" y="94.82" width="397.94" height="562.82"/><rect class="cls-1" x="916.53" y="1.9" width="23.24" height="93.26"/><rect class="cls-1" x="708.74" y="658.5" width="28.67" height="184.69"/><rect class="cls-1" x="595.41" y="553.19" width="66" height="11.33"/><rect class="cls-1" x="1059.41" y="412.53" width="130.67" height="13.33"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1191.5 844.3" style="enable-background:new 0 0 1191.5 844.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<line class="st0" x1="0.5" y1="843.8" x2="1191" y2="1.9"/>
+<line class="st0" x1="595.8" y1="1.9" x2="1191.1" y2="843.8"/>
+<line class="st0" x1="794.2" y1="282.5" x2="794.2" y2="1.9"/>
+<line class="st0" x1="0.7" y1="1.9" x2="1191.1" y2="843.8"/>
+<line class="st0" x1="595.8" y1="1.9" x2="0.5" y2="843.8"/>
+<line class="st0" x1="397.4" y1="282.5" x2="794.4" y2="0.4"/>
+<rect x="661.5" y="94.9" class="st0" width="397.9" height="562.8"/>
+<rect x="0.5" y="1.9" class="st0" width="595.3" height="841.9"/>
+<rect x="595.7" y="1.9" class="st0" width="595.3" height="841.9"/>
+</svg>
