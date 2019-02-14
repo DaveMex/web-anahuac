@@ -4,8 +4,19 @@
     <meta charset="utf-8">
     <meta name="deescription" content="Ejercicio sobre shapes.">
     <meta name="author" content="David H">
-    <title>Ejercicio 5.</title>
-    <style media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web" rel="stylesheet">
+    <title>Ejercicio 5 y 8.</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+    html.sr .load-hidden {
+    visibility: hidden;
+    }
+    h1 {
+        font-family: 'Staatliches', cursive;
+    }
+    p {
+      font-family: 'Titillium Web', sans-serif;
+    }
     .container{
       margin: 0 auto;
       width: 80%;
@@ -39,35 +50,36 @@
       clip-path: url(#myClip);
     }
     </style>
+
   </head>
   <body>
     <div class="container">
-      <section>
+      <section class="uno">
         <h1>Shape outside, círculo.</h1>
         <img id="cat1" src="images/nano.jpg" alt="Gato.">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
-      <section>
+      <section class="dos">
         <h1>Shape outside, polygono.</h1>
         <img id="cat2" src="images/nano.jpg" alt="Gato.">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
-      <section>
+      <section class="tres">
         <h1>Shape outside.</h1>
         <img id="cat3" src="images/nano.jpg" alt="Gato.">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
-      <section>
+      <section class="cuatro">
         <h1>Shape-outside, png.</h1>
         <img id="cat4" src="images/nano.jpg" alt="Gato.">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
-      <section>
+      <section class="cinco">
         <h1>Clip-path, svg.</h1>
         <img id="cat5" src="images/nano.jpg" alt="Gato.">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -85,5 +97,13 @@
       </svg>
       </section>
     </div>
+    <!-- Comment -->
+    <script>
+      ScrollReveal().reveal('.uno', { delay: 300, distance: '150px', reset: true, scale: 0.85, origin: 'left' });
+      ScrollReveal().reveal('.dos', { delay: 300, distance: '150px', reset: true, scale: 0.85, origin: 'right' });
+      ScrollReveal().reveal('.tres', { delay: 300, distance: '150px', reset: true, scale: 0.85, origin: 'left' });
+      ScrollReveal().reveal('.cuatro', { delay: 500, distance: '150px', reset: true, scale: 0.85, rotate: { x: 25, z: 25} });
+      ScrollReveal().reveal('.cinco', { delay: 300, distance: '150px', reset: true, scale: 0.85 });
+    </script>
   </body>
 </html>

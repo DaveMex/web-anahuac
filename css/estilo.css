@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 
+html, body {
+    margin: 0;
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
   }
